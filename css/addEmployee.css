@@ -1,0 +1,83 @@
+div.add_employee_result > table {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+div.add_employee_result > table th, div.add_employee_result > table td {
+    font-size: 15px;
+    height: 23px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.add_employee_result > table tr:nth-child(even) {
+    color: black;
+    background-color: lightgrey;
+}
+
+div.add_employee_result > table tr:nth-child(odd) {
+    color: black;
+    background-color: white;
+}
+
+div.add_employee_input > form > table {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    width: 90%;
+    margin-top: 20px;
+
+    border-collapse: collapse;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+div.add_employee_input > form > table th, div.add_employee_input > form > table td {
+    font-size: 15px;
+    width: 33%;
+    height: 23px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.add_employee_input > form > table td {
+    padding: 7px;
+}
+
+div.add_employee_input > p {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+button.add_employee_submit {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 5%;
+    width: 100px;
+    height: 30px;
+
+    background-color: #2F312F;
+    color: #E6E6E6;
+    cursor: pointer;
+}
+
+button.add_employee_submit:hover {
+    background-color: Black;
+    color: white;
+}
+
+
+.align_left {
+    text-align: left;
+}
+
+input.add_employee_input_radio {
+    position: relative;
+    margin-left: 20px;
+}

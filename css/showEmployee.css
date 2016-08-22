@@ -1,0 +1,75 @@
+div.show_employee_sort {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    margin-top: 15px;
+    margin-left: 5%;
+    font-size: 15px;
+    height: 60px;
+    width: 90%;
+}
+
+div.show_employee_search {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    margin-top: 15px;
+    margin-left: 5%;
+    font-size: 15px;
+    height: 60px;
+    width: 90%;
+    border: 1px solid transparent;
+}
+
+div.show_employee_search > p {
+    font-size: 20px;
+    left: 0px;
+}
+
+div.show_employee_sort_1, div.show_employee_search_1 {
+    float: left;
+    height: 40px;
+}
+
+div.show_employee_sort_2, div.show_employee_sort_3, div.show_employee_search_2, div.show_employee_search_3 {
+    float: left;
+    height: 40px;
+    position: relative;
+    margin-left: 30px;
+}
+
+div.show_employee_sort_1 > select, div.show_employee_sort_2 > select, div.show_employee_search_1 > select {
+    width: 150px;
+
+}
+
+div.show_employee_sort_2 > input, {
+    width: 60px;
+}
+
+div.show_employee_search_2 > input {
+    width: 150px;
+}
+
+div.show_employee_result > table {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    width: 90%;
+    margin-top: 20px;
+
+    border-collapse: collapse;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+div.show_employee_result > table th, div.show_employee_result > table td {
+    font-size: 15px;
+    height: 23px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.show_employee_result > table tr:nth-child(even) {
+    color: black;
+    background-color: lightgrey;
+}
+
+div.show_employee_result > table tr:nth-child(odd) {
+    color: black;
+    background-color: white;
+}

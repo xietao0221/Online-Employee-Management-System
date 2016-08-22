@@ -1,0 +1,109 @@
+body {
+    background: url(../picture/background.jpg);
+    background-size: 100%;
+    /*background-repeat:no-repeat;*/
+}
+
+div.transparent_box {
+    height: 280px;
+    width: 400px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -140px;
+
+
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0.9;
+
+    border:1em solid transparent;
+    border-radius: 10px;
+}
+
+div.transparent_box div {
+    font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 1.3em;
+    margin: 3%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+div.login_logo {
+    border: 1px solid transparent;
+
+    width: 375px;
+    height: 30px;
+    padding-top: -10px;
+}
+
+div.login_input {
+    border: 1px solid transparent;
+
+    width: 375px;
+    height: 100px;
+
+}
+
+input.login_box {
+    border: 1px solid lightgrey;
+    width: 365px;
+    height: 35px;
+
+    position: relative;
+    padding-left: 8px;
+    margin: -10px;
+    top: 0px;
+
+    font-size: 13px;
+
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+div.login_text {
+    border: 1px solid black;
+
+    width: 375px;
+    height: 30px;
+
+    position: relative;
+
+
+    border-radius: 5px;
+}
+
+input.login_submit {
+    border: 1px solid black;
+
+    width: 375px;
+    height: 30px;
+
+    position: relative;
+    margin-left: 13px;
+
+    border-radius: 5px;
+
+    background-color: #36608A;
+    color: white;
+    font-size: 17px;
+}
+
+div.login_error_message {
+    border: 1px solid transparent;
+
+    width: 375px;
+    height: 35px;
+
+    position: relative;
+    padding-top: 0px;
+}
+
+div.login_error_message > p {
+    font-size: 13px;
+    color: red;
+}
+
